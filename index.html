@@ -1,58 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
-    <style>
-        /* Basic CSS styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Simple Website</h1>
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
-    <div class="container">
-        <h2>Welcome to our website!</h2>
-        <p>This is a simple website with navigation, an image, and some basic styling.</p>
-        <img src="Screenshot_20230804-180552.jpg" alt="Website Image" width="400">
-    </div>
-</body>
-</html>
+/* Style for message boxes */
+.msg-box {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for different types of messages */
+.error {
+  color: red;
+}
+
+.alert {
+  color: orange;
+}
+
+.completed {
+  color: green;
+}
+
+/* Apply styles to specific messages */
+#msg1 {
+  background-color: #ff9999; /* Red background for error message */
+  color: white;
+  font-weight: bold;
+}
+
+#msg4 {
+  background-color: #ffff66; /* Yellow background for alert message */
+}
+
+#msg11 {
+  background-color: #66ff99; /* Green background for completed message */
+}
